@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>İmpressum — HET Consulting</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container">
+      <div class="brand">HET Consulting</div>
+      <nav id="menu">
+        <a href="index.html#services">Hizmetler</a>
+        <a href="index.html#contact">İletişim</a>
+      </nav>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h1>İmpressum</h1>
+      <p>Bu sayfa bir şablondur. Yasal gerekliliklere göre şirket/işletme unvanı, adres, iletişim bilgileri ve sorumlu kişi bilgisi ekleyiniz.</p>
+      <ul>
+        <li>Şirket Adı: HET Consulting</li>
+        <li>Adres: (adresinizi ekleyin)</li>
+        <li>E‑posta: info@het-consulting.com</li>
+        <li>Telefon: (opsiyonel)</li>
+        <li>Vergi/Resmi Bilgiler: (ülkeye göre)</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="left">© <span id="y"></span> HET Consulting</div>
+      <div class="right">
+        <a href="privacy.html">Gizlilik</a>
+        <a href="imprint.html">İmpressum</a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/script.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
